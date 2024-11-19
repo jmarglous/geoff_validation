@@ -1,0 +1,34 @@
+#sample names
+#company
+#user modifiable scripts.
+#excel_extract
+"excel":
+  "sheet":
+    "study":
+      "name": "study_overview"
+    "site":
+      "name": "site_level_overview"
+    "prev":
+      "name": "mutation_prev_site" #_long and _wide will be appended fo
+      "long":
+        "fields":
+          ["site_uid",  "substudy",   "date_start",  "date_end", "gene_mutation",     "mutant_num","total_num",
+         ]
+      "wide":
+        "fields": ["site_uid", "substudy", "date_start", "date_end"]
+
+"subdir_extract":
+  "output_extract_tsv"
+"subdir_validate":
+  "output_valid_tsv"
+
+    
+#iban3
+#this is the 3 letter country codes in Africa
+
+world_iso3c: [] #saved for checking world wide
+
+"world_iso3c":
+
+
+###### VALILDATION PARAMETERS
